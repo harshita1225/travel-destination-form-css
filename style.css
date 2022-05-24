@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --red:rgb(248, 34, 34);
+}
+
+body{
+    background-image: url("./images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    background-attachment:scroll;
+}
+
+form{
+    color:rgb(255, 254, 254);
+    width: 50%;
+    margin:30%;
+}
+
+h1{
+    font-size:4vw;
+    font-family: serif;
+    color:rgb(255, 255, 255);
+    margin:2rem;
+}
+
+.label{
+    font-size: 1.6rem;
+    background-color:var(--red);
+    padding:0.5rem 0 0.5rem 0.5rem;
+    margin:1rem;
+    
+}
+.input{
+    font-size: 1.6rem;
+    padding:0.3rem;
+    width: 30%;
+    margin-top:2rem;
+    
+}
+
+
+.transparent-button{
+    padding:0.5rem;
+    background-color: rgba(255, 255, 255, 0.568);
+    color:var(--red);
+    width:8em;
+    border:1px solid red;
+    text-align: center;
+    float: right;
+    margin:3rem;
+
+
+}
+
+.red-button{
+    padding:0.5rem;
+    background-color: rgba(255, 255, 255, 0.568);
+    background-color:var(--red);
+    border:none;
+    float: right;
+    text-align: center;
+    margin:3rem;
+    
+
+}
+
+button:hover{
+    box-shadow: -5px -5px 1px rgb(134, 105, 10);
+  
+}
+
+
+
+/*****************/
+/*Media Query*/
+/*****************/
+
+
+@media screen and (min-width:600px) {
+
+    .first-br{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:566px) {
+*{
+    font-size: 1rem;
+}
+.label,.input{
+    font-size: 1rem;
+}
+
+h1{
+    margin:0;
+}
+form{
+    margin: 30%;
+}
+
+.red-button,.transparent-button{margin:1rem;}
+
+}
+
+
+
+
+
+
