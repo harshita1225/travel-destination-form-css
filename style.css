@@ -15,16 +15,18 @@ body{
     background-size: cover;
     background-position: center 30%;
     background-attachment:scroll;
+
 }
 
-form{
+.container{
     color:rgb(255, 254, 254);
-    width: 50%;
+    width: 60vw;
     margin:30%;
+    border:2px solid white;
 }
 
 h1{
-    font-size:4vw;
+    font-size:4rem;
     font-family: serif;
     color:rgb(255, 255, 255);
     margin:2rem;
@@ -47,7 +49,8 @@ h1{
 
 
 .transparent-button{
-    padding:0.5rem;
+    font-size: 1.6rem;
+    padding:0.8rem;
     background-color: rgba(255, 255, 255, 0.568);
     color:var(--red);
     width:8em;
@@ -60,7 +63,8 @@ h1{
 }
 
 .red-button{
-    padding:0.5rem;
+    font-size: 1.6rem;
+    padding:0.8rem;
     background-color: rgba(255, 255, 255, 0.568);
     background-color:var(--red);
     border:none;
@@ -92,21 +96,11 @@ button:hover{
 
 
 @media screen and (max-width:566px) {
-*{
-    font-size: 1rem;
-}
-.label,.input{
-    font-size: 1rem;
-}
 
-h1{
-    margin:0;
+.red-button,.transparent-button
+{
+    margin:1rem;
 }
-form{
-    margin: 30%;
-}
-
-.red-button,.transparent-button{margin:1rem;}
 
 }
 
